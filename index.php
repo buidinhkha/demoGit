@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-	<h1>Hello every one</h1>
+	<h1 style="color: red", size=20 >Hello every one</h1>
 	<?php  
 	echo "Hello my name is kha";
 
