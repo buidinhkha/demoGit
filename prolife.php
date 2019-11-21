@@ -4,7 +4,8 @@
 	<title></title>
 </head>
 <body>
-	<h1 style="color: blue"; size=20 >Enter the info animal</h1>
+
+<h1 style="color: blue"; size=20 >Enter Your info </h1>
 	<?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -62,16 +63,15 @@ function test_input($data) {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name">
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
-  E-mail: <input type="text" name="email">
+  E-mail: <input type="text" name="Height">
   <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
-  Website: <input type="text" name="website">
+  Website: <input type="text" name="School">
   <span class="error"><?php echo $websiteErr;?></span>
   <br><br>
   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
@@ -86,7 +86,7 @@ function test_input($data) {
 </form>
 
 <?php
-echo "<h2>Your Input:</h2>";
+echo "<h2>Your Information:</h2>";
 echo $name;
 echo "<br>";
 echo $email;
