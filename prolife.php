@@ -6,8 +6,9 @@
 <body>
 
 <h1 style="color: blue"; size=20 >Enter Your info </h1>
+Name: <input type="text"  id="name">
 <br>
-<input type="text"  id="school">
+School: <input type="text"  id="school">
 <br>
 <input type="button" value="Ok" onclick="display()">
 
