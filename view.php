@@ -40,6 +40,7 @@
     <th>name</th>
     <th>price</th>
   </tr>
+
   <tr>
 
     <td> 
@@ -51,9 +52,8 @@
             }
         ?>
     </td>
-  </tr>
-  <tr>
-    <td> 
+
+     <td> 
          <?php
             foreach ($resultSet as $row) {
                 echo "<li>" .
@@ -64,6 +64,7 @@
 
     </td>
   </tr>
+ 
     </ul>
 </table>
 
