@@ -18,7 +18,7 @@
             $db["pass"],
             ltrim($db["path"], "/")
         ));    
-        $sql = "select * from products";
+        $sql = "select * from product";
         //compile the sql
         $stmt = $pdo->prepare($sql);
         //execute the query on the server and return the result set
