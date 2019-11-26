@@ -7,7 +7,7 @@
 
 <h1 style="color: blue"; size=20 >Enter Your info </h1>
 
-Name:   <input type="text"  id="name">
+Name:   <input type="text"  id="name" >
 <br>
 School: <input type="text"  id="school">
 <br>
