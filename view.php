@@ -26,15 +26,7 @@
         $stmt->execute();
         $resultSet = $stmt->fetchAll();
     ?>
-    <ul>
-        <?php
-            foreach ($resultSet as $row) {
-                echo "<li>" .
-                    $row["name"] . '--'. $row["price"]
-                . "</li>";
-            }
-        ?>
-<table style="width:100%">
+<table style="width:100%", border="5px">
 
          <tr>
     <th>name</th>
@@ -64,8 +56,7 @@
 
     </td>
   </tr>
- 
-    </ul>
+
 </table>
 
 </body>
