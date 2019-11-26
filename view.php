@@ -34,6 +34,38 @@
                 . "</li>";
             }
         ?>
+<table style="width:100%">
+
+         <tr>
+    <th>name</th>
+    <th>price</th>
+  </tr>
+  <tr>
+
+    <td> 
+    <?php
+            foreach ($resultSet as $row) {
+                echo "<li>" .
+                    $row["name"]
+                . "</li>";
+            }
+        ?>
+    </td>
+  </tr>
+  <tr>
+    <td> 
+         <?php
+            foreach ($resultSet as $row) {
+                echo "<li>" .
+                     $row["price"]
+                . "</li>";
+            }
+        ?>
+
+    </td>
+  </tr>
     </ul>
+</table>
+
 </body>
 </html>
