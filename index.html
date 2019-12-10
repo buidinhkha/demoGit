@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script  src="/__/firebase/7.5.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script  src="/__/firebase/7.5.0/firebase-auth.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script  src="/__/firebase/7.5.0/firebase-database.js"></script>
+    <script  src="/__/firebase/7.5.0/firebase-messaging.js"></script>
+    <script  src="/__/firebase/7.5.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script  src="/__/firebase/init.js"></script>
+  </head>
+  <body>
+    Name
+    <input type="text" name="" id="name">
+    <br>
+    Job Title 
+    <input type="text" name="" id="job">
+    <br>
+    Age 
+    <input type="text" name="" id="age">
+    <br>
+    <input type="button" value ="Insert" onclick="insertPerson()">
+    <script>
+      //chi den goc database 
+        const dbRef = firebase.database().ref();
+        function insertPerson()
+        {
+          var nameValue = $('#name').val();
+          var jobValue = $('#job').val();
+          var ageValue = $('#age').val();
+          // tham chieu den node persons
+          var personsRef = dbRef.child('persons');
+          // tao mot node con trong node persons
+          var newPerson = personsRef.push();
+          // dat gia tri cho node moi
+          newPerson.set({
+            name : nameValue,
+            job : jobValue,
+            age : ageValue
+          })
+          alert('insert person done!');
+        }
+    </script>
+  </body>
+</html>
