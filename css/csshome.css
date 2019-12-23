@@ -1,0 +1,350 @@
+﻿@charset "utf-8";
+body{
+	margin:0;
+}
+@font-face{
+	font-family:UTMAzuki;
+	src:url(../Font/UTM%20Azuki.ttf);}
+a{
+	text-decoration:none;}
+a:hover{
+	color:#09F;}
+.div{
+	padding-left:5%;
+	padding-right:5%;}
+div#duongdan{
+	background-color:#F3F3F3;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:30px;
+	margin-bottom:10px;
+	border-top:solid 4px #D2D2D2;}
+a#duongdan{
+	color:#666;
+	}
+a#duongdan:hover{
+	color:#09F;}
+.boxtimkiem{
+    color:rgb(0, 4, 178);
+	padding:10px;
+	margin-left:120px;
+	border:solid 2px #0000FF; border-right:0px;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	width:300px;
+	font-style:italic;
+	float:left;
+	outline:none;}
+.nuttimkiem{
+	padding:0px;
+	margin:0px;
+	border:solid 2px #0000FF; border-left:0px;
+	border-bottom-right-radius:7px;
+	border-top-right-radius:7px;
+	margin-right:5%;
+    background-color:transparent;
+	float:left;
+	outline:none;
+    width:40px;
+}
+.nuttimkiem:hover{
+	cursor:pointer;
+	transition:all 0.75s;
+    background-color:rgb(0, 255, 21);
+}
+.photo{
+	margin-right:2.2%;
+	width:23%;}
+#footer{
+	background-color:#F6F6F6;
+	padding-top:30px;
+	padding-bottom:10px;}
+.danhmuc{
+	font-family:Tahoma;
+	color:#666;
+	font-size:24px;
+	font-weight:bold;}
+.danhmuc:hover{
+	color:#333;
+	border-bottom:solid 2px #F00;
+	padding-bottom:7px;
+	font-size:24px;
+	font-weight:bold;}
+.sanpham{
+	box-sizing:border-box;
+	border:1px #CCCCCC solid;
+	padding-top:20px;
+	float:left;
+	width:240px;
+	height:300px;}
+.sanpham:hover{
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+	transition:all 0.3s;}
+.name{
+	padding-left:10px;
+	padding-top: 10px;
+	padding-bottom: 20px;}
+.ul{
+	margin:0px;
+    padding:0px;
+	margin-right:20px;
+	list-style-type:none;
+	display:block;
+	float:left;
+	background-color:#EFEFEF;
+	width:200px;}
+.li{
+	padding: 10px 20px;
+	color:#333;
+	font-size:20px;}
+.hoatdong{
+	padding: 10px 20px;
+	background-color:#FFF;
+	border-left:solid 5px #FF6600;
+	color:#F00;
+	font-style:oblique;
+	font-size:20px;
+	cursor:default;}
+.li:hover{
+	color:#F09;
+	background-color:#CCC;
+	transition:all 0.25s;}
+.select1{
+	padding: 5px 5px;
+	border-radius: 5px;
+	float:right;
+	cursor:pointer;
+	width:180px;
+	outline:none;}
+.nutlogin{
+	border:solid 0px;
+	background-color:#F00;
+	padding:10px;
+	border-radius:5px;
+	color:#FFF;
+	margin-top:5px;
+	outline:none;
+	transition:all 0.75s;
+	font-weight:bold;}
+.boxlogin{
+	padding:10px;
+	margin:10px;
+	border:solid 2px #999;
+	border-radius:20px;
+	width:200px;
+	outline:none;}
+.boxlogin:focus{
+	padding:10px;
+	margin:10px;
+	border:solid 1px #999999;
+	border-radius:20px;
+	width:200px;
+	outline:none;
+	box-shadow:0px 0px 15px #FF00FF;
+	transition:ease 1s;}
+.nutlogin:hover{
+	background-color:#00C;
+	size:landscape;
+	cursor:pointer;}
+.litaikhoan{
+	color:white;
+	padding:15px 20px;
+	border:solid 0px;
+	font-size:20px;}
+.litaikhoan:hover{
+	color:#F09;
+	background-color:rgb(113, 113, 113);
+	transition:all 0.5s;
+    border-bottom-right-radius:30px;
+}
+.hoatdongtk{
+	color:#666;
+	padding:15px 20px;
+	border-left:solid 5px #FF6600;
+	font-size:20px;
+	cursor:default;}
+.thongtin{
+	font-size:24px;
+	color:#00F;
+	margin:0px;
+	margin-bottom:10px;
+	padding:10px;
+	border:solid 0px;
+	background-color:#0F0;
+	width:200px;
+	border-bottom-right-radius:50px;
+	border-top-left-radius:50px;}
+.hopthongtin{
+	margin-bottom:20px;
+	padding:5px;
+	outline:none;
+	width:500px;
+}
+.XTSX1 {
+    list-style-type: none;
+    margin-left:5%;
+    margin-right:5%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius:25px;
+}
+
+#XTSX2 {
+    float: left;
+    display: inline-block;
+}
+
+#XTSX2 a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#XTSX2 a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(255, 57, 57);
+    transition:all 0.5s;
+    font-size:17px;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color:rgba(3, 0, 255, 0.82);
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color:rgb(10, 255, 0); transition:all 0.75s;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color:black;
+}
+.XTSX_ACTION{
+	display: block;
+    background-color:rgb(224, 224, 224);
+    color:red;
+    text-align: center;
+    padding: 10px 12px;
+    cursor:default;
+    border:solid 4px rgb(0, 255, 239);
+    font-weight:bold;
+}
+.PhanHoi{
+	color:#FFF;
+	background-color:#F00;
+	display:inline-block;
+	list-style-type:none;
+	padding:10px;
+	margin:0px;
+}
+.PhanHoi:hover{
+	color:#FFF;
+	background-color:red;
+	display:inline-block;
+	list-style-type:none;
+	padding:10px;
+	margin:0px;
+    border-top-right-radius:30px;
+    transition:all 0.25s;
+}
+.HoatDongPH{
+	color:#FFF;
+	background-color:#0F0;
+	display:inline-block;
+	list-style-type:none;
+	padding:10px;
+	margin:0px;
+	cursor:default;
+    border-bottom-left-radius:25px;
+}
+.TinPhanHoi{
+	border:none; background-color:rgb(255, 85, 199); cursor:default; color:#F00; font-weight:bold;}
+.TinPhanHoiDADOC{
+	border:none; background-color:#E6E6E6; cursor:default; color:#F00; font-weight:bold;}
+#slider {
+	position:relative;
+    width: 538px;
+    height: 279px;
+}
+.top_img { 
+	height:320px;
+    background-color:transparent;
+}
+.QuanLi{background-color:rgb(48,48,48);color:rgb(160,160,160); padding:10px;border-top-left-radius:30px;}
+@media only screen and (max-width:1080px){
+    body{
+        display:table;
+    }
+    .boxtimkiem{
+        margin-left:0px;
+    }
+}
+#top {
+			position: fixed;
+			right: 10px;
+			bottom: 10px;
+			display: none;
+            margin-bottom:20px;
+            margin-right:20px;
+		}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('font-awesome-4.5.0/fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('font-awesome-4.5.0/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('font-awesome-4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('font-awesome-4.5.0/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('font-awesome-4.5.0/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('font-awesome-4.5.0/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Thay thế content \f000 bằng mã icon mà bạn muốn hiển thị*/
+.iconhome:before {
+    content: "\f015";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.icondt:before {
+    content: "\f10b";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.iconmtb:before {
+    content: "\f10a";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.iconpk:before {
+    content: "\f025";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.icondanhmuc:before {
+    content: "\f022";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+.iconlogin:before {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size:30px;
+}
+.iconpass:before {
+    content: "\f023";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size:30px;
+}
