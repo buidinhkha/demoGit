@@ -1,0 +1,8 @@
+2019-08-25T02:36:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Xampp\htdocs\sachhay\wp-admin\includes\image.php on line 25
+
+2019-08-25T03:59:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Xampp\htdocs\sachhay\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-08-25T04:04:14+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Xampp\htdocs\sachhay\wp-includes\Requests\Transport\cURL.php on line 463
+
+2019-08-25T10:50:31+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Xampp\htdocs\sachhay\wp-includes\wp-db.php on line 2007
+
