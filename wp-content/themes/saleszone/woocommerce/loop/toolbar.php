@@ -1,1 +1,0 @@
-<?php woocommerce_catalog_ordering(); ?>

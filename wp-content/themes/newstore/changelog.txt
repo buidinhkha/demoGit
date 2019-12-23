@@ -1,4 +1,0 @@
-auto cteate page on activation.
-topbar shotrcut not working.
-contaner min height.
-live customizer issues.

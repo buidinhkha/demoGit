@@ -1,6 +1,0 @@
-2019-08-27T03:24:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Xampp\htdocs\sachhay\wp-includes\Requests\Transport\cURL.php on line 441
-
-2019-08-27T03:29:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Xampp\htdocs\sachhay\wp-includes\Requests\Transport\cURL.php on line 441
-
-2019-08-27T03:31:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\Xampp\htdocs\sachhay\wp-includes\Requests\Transport\cURL.php on line 441
-
