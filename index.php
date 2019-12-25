@@ -1,5 +1,6 @@
 <?php session_start();
 require_once("./funtion.php");
+$db = parse_url(getenv("DATABASE_URL"));
 ?>
 <!DOCTYPE html>
 <html>
